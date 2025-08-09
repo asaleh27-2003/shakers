@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form>
+      <div class="header">
+        <h2>Select And Submit To Join One Of Our Courses</h2>
+        <div class="content">
+          <div class="Account">
+            <span class="account-email">ahmad@gmail.com</span>
+            <span class="switch-account">
+              <a
+                href="https://www.youtube.com/watch?v=ajmI1P3r1w4"
+                target="_blank"
+                class="switch-accounts"
+              >Switch Account</a>
+            </span>
+            <span class="icon">
+              <i class="fa-solid fa-cloud-arrow-up"></i>
+            </span>
+          </div> <!-- close Account -->
+        </div> <!-- close content -->
+        <p class="description">
+          The name, email address and photo associated with your Google Account
+          will be recorded when you upload files and submit this form
+        </p>
+        <p class="warning">* Indicates required question</p>
+      </div> <!-- close header -->
+
+      <div class="question">
+        <div class="title">
+          <label for="email">Email</label>
+          <span class="required-icon">*</span>
+        </div>
+        <div class="question-input">
+          <input id="email" type="email" placeholder="Your Email address" required />
+        </div>
+      </div> <!-- close question -->
+
+      <div class="question">
+        <div class="title">
+          <label for="name">Name</label>
+          <span class="required-icon">*</span>
+        </div>
+        <div class="question-input">
+          <input id="name" type="text" placeholder="Your Name" />
+        </div>
+      </div> <!-- close question -->
+
+      <div class="question">
+        <div class="title">
+          <label for="number">Phone number</label>
+          <span class="required-icon">*</span>
+        </div>
+        <div class="question-input">
+          <input id="number" type="text" placeholder="Your Phone Number" />
+        </div>
+      </div> <!-- close question -->
+
+      <div class="question">
+        <div class="title">
+          <label for="course">Course</label>
+          <span class="required-icon">*</span>
+        </div>
+        <div class="question-input">
+          <select id="course">
+            <option value="1">Asp.net</option>
+            <option value="2">Angular</option>
+            <option value="3">Python</option>
+          </select>
+        </div>
+      </div> <!-- close question -->
+
+      <div class="action">
+        <button type="submit" class="submit button">Submit</button>
+        <button type="reset" class="reset button">Clear Form</button>
+      </div>
+    </form>
+
+    <div class="footer">
+      <p class="copyright">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sit expedita, vitae earum rerum amet?
+      </p>
+      <p class="logo">Google Forms</p>
+    </div>
+    <!--
+     <div>Form Demo</div>
+    <div>Form Demo</div>
+     <span></span> ,<p></p>  
+    -->
+  </body>
+</html>
