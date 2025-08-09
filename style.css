@@ -1,0 +1,126 @@
+html
+{
+background-color: #efeaf7;
+font-family: sans-serif;
+font-size: 14px;
+margin:1% 22%;
+}
+.header
+{
+background-color: white;
+padding: 1% 4% 2% ;
+border-radius: 10px;
+border: 1px #d3d3d3 solid ;
+border-top:9px #673ab6 solid ;
+}
+.account-email
+{
+font-weight: 600;
+color: #6a6a6a;
+}
+.account-email,.switch-account,.icon,.description
+{
+font-size: 0.9rem; 
+}
+.warning,.required-icon
+{
+color: #d10000;
+}
+.Account
+{
+ display:flex;
+}
+.switch-account
+{
+     flex-grow: 1;/* for icon ashan nbaedha ala aksa al yameennnnnn */
+    padding-left: 3%;
+}
+.question
+{
+background-color: white;
+padding: 2% 4% 2%;
+border-radius: 10px;
+border:rgb(191, 190, 190) 1px soild;
+margin-top: 1%;
+}
+.title
+{
+font-size:1.3rem;
+padding-bottom: 1%;
+}
+input,select
+{
+padding: 1% 2% ;
+border-radius: 4px;
+border:1px #ccc solid;
+width: 50%;
+box-sizing: border-box;
+}
+.action
+{
+display:flex;
+justify-content: space-between;
+margin-top: 1%;
+}
+.button
+{
+    font-size: 0.9rem;
+    padding:1.5%2.5% ;
+    border-radius: 4px;
+    border:none;
+    font-weight: 600;
+    cursor:pointer;
+}
+.submit
+{
+ background-color: rgb(162,0,255);
+ color: white;
+}
+.reset 
+{
+ background-color: unset;
+ color: rgb(162,0,255);
+}
+.reset:hover
+{
+    background-color: #6a6a6a;
+}
+.copyright
+{
+font-size: 0.9rem;
+color: rgb(144,144,144);
+}
+.footer
+{
+display: flex;
+flex-direction:column ;
+align-items: center;
+margin:1%;
+}
+.logo
+{
+font-size: 1.4rem;
+font-weight: 600;
+color:rgb(41, 41,41);
+margin-top:1%;
+}
+@media(max-width:600px)
+{
+html
+{
+    font-size: 12px;
+    margin: 1% 4%;
+
+}
+input,select
+{
+width:100%;
+padding:4% 6%;
+
+}
+.button
+{
+    padding: 2.5% 6.5%;
+    font-size: 1rem;
+}
+}
